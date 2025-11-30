@@ -239,41 +239,52 @@ function toggleOrders() {
     }
 }
 
-// Render orders
-function renderOrders() {
-    const ordersList = document.getElementById('orders-list');
-    const totalPriceElement = document.getElementById('total-price');
-    
-    if (cart.length === 0) {
-        ordersList.innerHTML = '<p style="text-align: center; color: #8b6f47;">Your cart is empty</p>';
-        totalPriceElement.textContent = '0';
+function renderOrders(){
+    const listEl = document.getElementById('orders-list');
+    const totalEl = document.getElementById('total-price');
+
+    if(cart.length === 0){
+        listEl.innerHTML = '<p style="text-align:center">Your beige-cart is empty 🌸</p>';
+        totalEl.textContent = '0';
         return;
     }
-    
-    ordersList.innerHTML = cart.map(item => `
+
+    listEl.innerHTML = cart.map(item => `
         <div class="order-item">
             <img src="${item.image}" alt="${item.name}">
-            <div style="flex: 1; margin-left: 15px;">
+            <div class="order-info">
                 <h4>${item.name}</h4>
-                <p>₱${item.price.toLocaleString()} x ${item.quantity}</p>
-                <p style="font-weight: bold;">₱${(item.price * item.quantity).toLocaleString()}</p>
+                <p>₱${item.price.toLocaleString()} each</p>
+                <div class="cart-qty-controls">
+                    <button onclick="changeCartQty('${item.id}',-1)">–</button>
+                    <span class="cart-qty">${item.quantity}</span>
+                    <button onclick="changeCartQty('${item.id}',+1)">+</button>
+                </div>
+                <p style="font-weight:700;margin-top:4px">₱${(item.price * item.quantity).toLocaleString()}</p>
             </div>
-            <button class="remove-order-btn" onclick="removeFromCart('${item.id}')">Remove</button>
+            <button class="remove-order-btn" onclick="removeFromCart('${item.id}')">✖</button>
         </div>
     `).join('');
-    
-    const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-    totalPriceElement.textContent = total.toLocaleString();
-    
-    // Add checkout button
-    if (cart.length > 0) {
-        ordersList.innerHTML += `
-            <button class="submit-order-btn" onclick="proceedToPayment()" style="margin-top: 20px;">
-                Proceed to Payment
-            </button>
-        `;
-    }
+
+    const total = cart.reduce((sum,it) => sum + it.price * it.quantity, 0);
+    totalEl.textContent = total.toLocaleString();
+
+    // checkout button
+    listEl.innerHTML += `
+        <button class="submit-order-btn" onclick="proceedToPayment()" style="margin-top:20px;width:100%">
+            Proceed to Payment
+        </button>`;
 }
+
+// helper: change quantity in cart
+function changeCartQty(id, delta){
+    const item = cart.find(i => i.id === id);
+    if(!item) return;
+    item.quantity = Math.max(1, item.quantity + delta);
+    renderOrders();          // refresh panel
+    updateOrderCount();      // update floating badge
+}
+
 
 // Remove from cart
 function removeFromCart(productId) {
