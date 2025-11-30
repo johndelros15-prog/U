@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurevia - Premium Perfumes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating Background Elements -->
+    <div class="floating-perfumes">
+        <div class="perfume-icon">🍾</div>
+        <div class="perfume-icon">🌸</div>
+        <div class="perfume-icon">💐</div>
+        <div class="perfume-icon">🌺</div>
+        <div class="perfume-icon">🍾</div>
+    </div>
+
+    <!-- Falling Flowers Effect -->
+    <div class="flower-container">
+        <div class="flower">🌸</div>
+        <div class="flower">🌺</div>
+        <div class="flower">🌷</div>
+        <div class="flower">💐</div>
+        <div class="flower">🌹</div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <h1 class="logo">Aurevia</h1>
+            <p class="tagline">Discover Your Signature Scent</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="category-nav">
+        <button class="category-btn active" onclick="showCategory('women')">Women's Perfumes</button>
+        <button class="category-btn" onclick="showCategory('men')">Men's Perfumes</button>
+        <button class="category-btn" onclick="showCategory('unisex')">Unisex Perfumes</button>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Women's Perfumes Category -->
+        <section id="women" class="category-section active">
+            <h2 class="category-title">Women's Collection</h2>
+            <div class="products-grid" id="women-products"></div>
+        </section>
+
+        <!-- Men's Perfumes Category -->
+        <section id="men" class="category-section">
+            <h2 class="category-title">Men's Collection</h2>
+            <div class="products-grid" id="men-products"></div>
+        </section>
+
+        <!-- Unisex Perfumes Category -->
+        <section id="unisex" class="category-section">
+            <h2 class="category-title">Unisex Collection</h2>
+            <div class="products-grid" id="unisex-products"></div>
+        </section>
+    </main>
+
+    <!-- My Orders Button -->
+    <div class="orders-button" onclick="toggleOrders()">
+        <span>My Orders</span>
+        <span class="order-count" id="order-count">0</span>
+    </div>
+
+    <!-- Orders Modal -->
+    <div id="orders-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="toggleOrders()">&times;</span>
+            <h2>My Orders</h2>
+            <div id="orders-list"></div>
+            <div class="total-price">
+                <strong>Total: ₱<span id="total-price">0</span></strong>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content product-modal-content">
+            <span class="close" onclick="closeProductModal()">&times;</span>
+            <div id="product-details"></div>
+        </div>
+    </div>
+
+    <!-- Payment Modal -->
+    <div id="payment-modal" class="modal">
+        <div class="modal-content payment-modal-content">
+            <span class="close" onclick="closePaymentModal()">&times;</span>
+            <h2>Payment Method</h2>
+            <div class="payment-options">
+                <button class="payment-btn" onclick="selectPayment('gcash')">
+                    <img src="https://i.imgur.com/3Q9cP5K.png" alt="GCash" class="payment-logo">
+                    GCash
+                </button>
+                <button class="payment-btn" onclick="selectPayment('paymaya')">
+                    <img src="https://i.imgur.com/5Z6v3Qp.png" alt="PayMaya" class="payment-logo">
+                    PayMaya
+                </button>
+                <button class="payment-btn" onclick="selectPayment('cod')">
+                    <span class="cod-icon">💵</span>
+                    Cash on Delivery
+                </button>
+            </div>
+            <form id="payment-form" style="display:none;">
+                <input type="text" id="customer-name" placeholder="Your Name" required>
+                <input type="tel" id="customer-number" placeholder="Phone Number" required>
+                <button type="submit" class="submit-order-btn">Place Order</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="Au.js"></script>
+</body>
+  </html>
+  
