@@ -2,38 +2,38 @@ const products = {
     women: [
         {
             id: 'w1',
-            name: 'Chloe Le Parfum',
-            price: 3550,
+            name: 'Eclaire Lattafa',
+            price: 2700,
             image: 'https://i.imgur.com/8QZ9Z1K.jpg',
-            description: 'Chloe Le Parfum blooms with soft, graceful florals that linger with effortless femininity. This exquisite fragrance opens with a delicate bouquet of rose and jasmine, creating an immediate sense of romantic elegance. The heart reveals powdery iris and warm honey notes that add depth and sophistication. As it settles, the base notes of cedarwood and white musk provide a lasting impression of refined femininity. Perfect for the modern woman who appreciates timeless beauty and understated luxury.'
+            description: 'Lattafa Eclaire is a sweet, creamy fragrance that wraps you in warmth and indulgence. It opens with rich notes of caramel and sugar, melting smoothly into soft milky accords and hints of vanilla. As it settles, gentle musks and creamy woods create a cozy, irresistible trail that feels both comforting and luxurious. Perfect for lovers of gourmand scents, Eclaire is like wearing dessert on your skin—soft, addictive, and unforgettable.'
         },
         {
             id: 'w2',
-            name: 'Rose Ambre Fragonard',
-            price: 3000,
+            name: 'Chloé Le Parfum',
+            price: 4410,
             image: 'https://i.imgur.com/5N6P7K2.jpg',
-            description: 'Soft, warm, and exquisitely floral, Rose Ambre leaves a trail of refined, captivating charm. This luxurious fragrance combines the classic beauty of rose with the warmth of amber, creating a sophisticated scent that evolves beautifully throughout the day. The opening is bright with fresh rose petals, while the heart reveals a rich amber accord complemented by hints of vanilla and sandalwood. The result is a fragrance that is both romantic and mysterious, perfect for evening wear or special occasions.'
+            description: 'Chloé Le Parfum is a timeless floral fragrance that captures pure femininity and effortless elegance. It opens with fresh, delicate florals that bloom into a soft heart of romantic rose, beautifully balanced by subtle notes of peony and lychee. As it dries down, warm hints of cedarwood and amber add depth and sophistication, leaving a graceful and long-lasting trail. Light, chic, and refined, this scent is perfect for everyday wear or special moments when you want to feel quietly luxurious.'
         },
         {
             id: 'w3',
-            name: 'Velvet Blossom Sand + Fog',
-            price: 1500,
+            name: 'Vanilla 01 Swiss Arabian',
+            price: 3700,
             image: 'https://i.imgur.com/7M8N9P3.jpg',
-            description: 'Soft, enchanting, and quietly luxurious, Velvet Blossom Sand + Fog evokes a trail of sophisticated serenity. This unique fragrance captures the essence of a peaceful morning by the sea, with notes of fresh ocean air, delicate florals, and warm sand. The opening is crisp and clean, reminiscent of sea spray, while the heart reveals soft peony and jasmine. The dry-down is warm and comforting with hints of white musk and driftwood, creating a scent that is both calming and alluring.'
+            description: 'Vanilla 01 by Swiss Arabian is a warm, creamy fragrance that celebrates the beauty of pure vanilla. It opens with soft sweetness that feels smooth and comforting, slowly unfolding into rich vanilla tones blended with gentle musks. As it settles, the scent becomes deeper and more sensual, wrapping the skin in a cozy, lingering trail that feels both simple and luxurious. Perfect for lovers of soft gourmand fragrances, this scent is ideal for daily wear or anytime you want a touch of sweetness that never feels overwhelming.'
         },
         {
             id: 'w4',
-            name: 'Haya Lattafa',
-            price: 3000,
+            name: 'Rose Ambre Fragonard',
+            price: 2900,
             image: 'https://i.imgur.com/9O1Q2R4.jpg',
-            description: 'A luminous blend of florals and gentle sweetness, Haya leaves a trail of pure, radiant femininity. This captivating fragrance opens with sparkling citrus notes that immediately uplift the senses. The heart reveals a beautiful bouquet of white flowers - jasmine, tuberose, and orange blossom - that create an aura of elegance and grace. The base is warm and sensual with vanilla, white musk, and subtle woody notes, making it perfect for the confident woman who wants to leave a lasting impression.'
+            description: 'Rose Ambre by Fragonard is a rich and sensual fragrance that blends romantic florals with deep oriental warmth. It opens with soft, elegant rose, gently wrapped in subtle spices that add intrigue and depth. As the scent unfolds, warm amber and smooth resins emerge, creating a glowing, luxurious base that feels comforting yet seductive. Balanced between sweetness and warmth, this perfume leaves a lasting impression that is both mysterious and timeless.'
         },
         {
             id: 'w5',
-            name: 'Vanilla Aura',
-            price: 2900,
+            name: 'Haya Lattafa',
+            price: 3500,
             image: 'https://i.imgur.com/3R4S5T6.jpg',
-            description: 'Vanilla Aura unfolds like a gentle whisper of sweetness, leaving an irresistible, cozy charm. This delightful fragrance reimagines vanilla in the most sophisticated way, combining Madagascar vanilla with hints of caramel and tonka bean. The opening is soft and inviting with notes of vanilla orchid, while the heart reveals rich bourbon vanilla absolute. The dry-down is warm and comforting with amber and musk, creating a scent that is both familiar and extraordinary. Perfect for everyday wear or cozy evenings.'
+            description: 'Haya by Lattafa is a bright and joyful fragrance that blends sparkling fruits with soft florals and creamy sweetness. It opens with a fresh burst of juicy notes that feel playful and uplifting, then melts into a heart of delicate flowers and smooth accords. As it dries down, warm vanilla and gentle musk add a soft, comforting finish that lingers beautifully on the skin. Feminine, youthful, and charming, Haya is perfect for everyday wear or moments when you want to feel light and confident.'
         }
     ],
     men: [
