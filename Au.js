@@ -4,7 +4,7 @@ const products = {
             id: 'w1',
             name: 'Eclaire Lattafa',
             price: 2700,
-            image: 'https://i.imgur.com/8QZ9Z1K.jpg',
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.93628.2x.avif',
             description: 'Lattafa Eclaire is a sweet, creamy fragrance that wraps you in warmth and indulgence. It opens with rich notes of caramel and sugar, melting smoothly into soft milky accords and hints of vanilla. As it settles, gentle musks and creamy woods create a cozy, irresistible trail that feels both comforting and luxurious. Perfect for lovers of gourmand scents, Eclaire is like wearing dessert on your skin—soft, addictive, and unforgettable.'
         },
         {
