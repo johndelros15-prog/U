@@ -76,38 +76,40 @@ const products = {
     unisex: [
         {
             id: 'u1',
-            name: 'Eclaire Lattafa',
+            name: 'Forbidden Fruit',
             price: 2700,
-            image: 'https://i.imgur.com/4C5D6E7.jpg',
-            description: 'Eclaire captivates the senses with a creamy sweetness that lingers like a soft, luminous whisper. This unisex gourmand fragrance opens with delicious notes of caramel and vanilla that immediately create a sense of comfort and luxury. The heart reveals creamy sandalwood and white flowers that add sophistication and balance. The dry-down is warm and sensual with musk and amber creating a scent that is both edible and elegant. Perfect for those who appreciate sweet fragrances that are refined and wearable for any occasion.'
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.117531.2x.avif',
+            description: 'Forbidden Fruit is a captivating unisex fragrance that balances sweetness and sensuality with effortless charm. It opens with luscious, juicy notes that immediately intrigue, flowing into a heart of soft florals and subtle spices. As it settles, warm amber, vanilla, and gentle musks create a smooth, lingering trail that is both mysterious and inviting. Bold yet elegant, this scent is perfect for those who dare to embrace temptation with style.'
         },
         {
             id: 'u2',
-            name: 'Forbidden Fruit',
-            price: 2700,
-            image: 'https://i.imgur.com/6F7G8H9.jpg',
-            description: 'Delicate yet daring, Forbidden Fruit lingers with a refined, irresistible charm. This intriguing unisex fragrance opens with fresh apple and blackcurrant that create an immediate sense of mystery and allure. The heart reveals a sophisticated blend of rose and jasmine that adds floral elegance without being too feminine. The base is warm and sensual with patchouli, vanilla, and musk creating a scent that is both fresh and seductive. Perfect for those who want to make a subtle yet memorable statement.'
+            name: 'Island Vanilla Dunes1',
+            price: 2400,
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.106802.2x.avif',
+            description: 'Island Vanilla Dunes is a warm and inviting fragrance that transports you to sun-kissed shores. It opens with bright, airy notes of tropical fruits and gentle florals, blending seamlessly into a heart of creamy vanilla. As it dries down, soft musk and golden woods create a smooth, lingering trail reminiscent of sandy beaches and ocean breezes. Sweet, cozy, and effortlessly uplifting, this scent is perfect for everyday wear or moments when you want to feel relaxed and radiant.
+
+'
         },
         {
             id: 'u3',
-            name: 'Island Vanilla Dunes',
-            price: 2400,
-            image: 'https://i.imgur.com/8H9I0J1.jpg',
-            description: 'Island Vanilla Dunes carries the warmth of sun-kissed sands and creamy vanilla, leaving a soft, captivating trail. This beach-inspired unisex fragrance opens with fresh coconut and sea salt that immediately transport you to a tropical paradise. The heart reveals creamy vanilla and tiare flower that create a sense of relaxation and luxury. The dry-down is warm and comforting with sandalwood and white musk, reminiscent of warm skin after a day at the beach. Perfect for those who want to carry the essence of summer with them year-round.'
+            name: 'Vanilla Aura',
+            price: 2300,
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.117517.2x.avif',
+            description: 'Vanilla Aura is a soft and enchanting fragrance that celebrates the comforting warmth of vanilla. It opens with a delicate sweetness that immediately feels cozy and inviting, unfolding into a heart of creamy vanilla blended with subtle floral nuances. As it settles, gentle musks and warm woods leave a lingering, graceful trail that is both soothing and sophisticated. Perfect for daily wear or quiet evenings, Vanilla Aura wraps you in a subtle, irresistible embrace.'
         },
         {
             id: 'u4',
-            name: 'Amber Empire',
-            price: 4410,
-            image: 'https://i.imgur.com/0I1J2K3.jpg',
-            description: 'Warm, opulent, and irresistibly smooth, Amber Empire leaves a trail of refined elegance. This luxurious unisex fragrance opens with rich amber and incense that immediately create an atmosphere of sophistication and mystery. The heart reveals a complex blend of spices - cinnamon, cardamom, and nutmeg - that add warmth and depth. The base is sensual and lasting with oud, sandalwood, and vanilla creating a scent that is both exotic and familiar. Perfect for special occasions or when you want to feel truly luxurious.'
+            name: 'Velvet Blossom Sand + Fog',
+            price: 1500,
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.114204.2x.avif',
+            description: 'Velvet Blossom Sand + Fog is a mysterious and sophisticated fragrance that blends soft florals with warm, earthy undertones. It opens with delicate floral notes that feel airy and elegant, flowing into a heart of creamy blossoms wrapped in subtle spices. As it settles, smooth woods, soft amber, and gentle musks create a lingering, velvety trail that evokes quiet sophistication and understated allure. Perfect for evenings or moments when you want to leave a lasting, refined impression.'
         },
         {
             id: 'u5',
-            name: 'Vanilla 01 Swiss Arabian',
-            price: 3500,
-            image: 'https://i.imgur.com/2J3K4L5.jpg',
-            description: 'A rich swirl of velvety vanilla that leaves a soft, addictive warmth lingering beautifully on the skin. This sophisticated vanilla fragrance reimagines the beloved note in the most luxurious way possible. The opening is bright with vanilla orchid and hints of citrus that prevent it from being too sweet. The heart reveals rich Madagascar vanilla absolute complemented by tonka bean. The base is warm and sensual with amber and musk creating a scent that is both comforting and alluring. Perfect for vanilla lovers who want something refined and unique.'
+            name: 'Dynasty Lattafa',
+            price: 3000,
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.112859.2x.avif',
+            description: 'Dynasty by Lattafa is a powerful and commanding fragrance that exudes sophistication and strength. It opens with rich, spicy notes that immediately capture attention, blending into a heart of warm woods and subtle florals. As it settles, deep amber, musk, and creamy undertones create a long-lasting, majestic trail that feels both regal and unforgettable. Perfect for evenings or special occasions, Dynasty is a scent for those who leave a lasting impression wherever they go.'
         }
     ]
 };
