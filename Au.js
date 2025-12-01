@@ -11,28 +11,28 @@ const products = {
             id: 'w2',
             name: 'Chloé Le Parfum',
             price: 4410,
-            image: 'https://i.imgur.com/5N6P7K2.jpg',
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.111273.2x.avif',
             description: 'Chloé Le Parfum is a timeless floral fragrance that captures pure femininity and effortless elegance. It opens with fresh, delicate florals that bloom into a soft heart of romantic rose, beautifully balanced by subtle notes of peony and lychee. As it dries down, warm hints of cedarwood and amber add depth and sophistication, leaving a graceful and long-lasting trail. Light, chic, and refined, this scent is perfect for everyday wear or special moments when you want to feel quietly luxurious.'
         },
         {
             id: 'w3',
             name: 'Vanilla 01 Swiss Arabian',
             price: 3700,
-            image: 'https://i.imgur.com/7M8N9P3.jpg',
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.117520.2x.avif',
             description: 'Vanilla 01 by Swiss Arabian is a warm, creamy fragrance that celebrates the beauty of pure vanilla. It opens with soft sweetness that feels smooth and comforting, slowly unfolding into rich vanilla tones blended with gentle musks. As it settles, the scent becomes deeper and more sensual, wrapping the skin in a cozy, lingering trail that feels both simple and luxurious. Perfect for lovers of soft gourmand fragrances, this scent is ideal for daily wear or anytime you want a touch of sweetness that never feels overwhelming.'
         },
         {
             id: 'w4',
             name: 'Rose Ambre Fragonard',
             price: 2900,
-            image: 'https://i.imgur.com/9O1Q2R4.jpg',
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.25968.2x.avif',
             description: 'Rose Ambre by Fragonard is a rich and sensual fragrance that blends romantic florals with deep oriental warmth. It opens with soft, elegant rose, gently wrapped in subtle spices that add intrigue and depth. As the scent unfolds, warm amber and smooth resins emerge, creating a glowing, luxurious base that feels comforting yet seductive. Balanced between sweetness and warmth, this perfume leaves a lasting impression that is both mysterious and timeless.'
         },
         {
             id: 'w5',
             name: 'Haya Lattafa',
             price: 3500,
-            image: 'https://i.imgur.com/3R4S5T6.jpg',
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.25968.2x.avif',
             description: 'Haya by Lattafa is a bright and joyful fragrance that blends sparkling fruits with soft florals and creamy sweetness. It opens with a fresh burst of juicy notes that feel playful and uplifting, then melts into a heart of delicate flowers and smooth accords. As it dries down, warm vanilla and gentle musk add a soft, comforting finish that lingers beautifully on the skin. Feminine, youthful, and charming, Haya is perfect for everyday wear or moments when you want to feel light and confident.'
         }
     ],
