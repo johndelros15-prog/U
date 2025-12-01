@@ -25,14 +25,14 @@ const products = {
             id: 'w4',
             name: 'Rose Ambre Fragonard',
             price: 2900,
-            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.25968.2x.avif',
+            image: '',
             description: 'Rose Ambre by Fragonard is a rich and sensual fragrance that blends romantic florals with deep oriental warmth. It opens with soft, elegant rose, gently wrapped in subtle spices that add intrigue and depth. As the scent unfolds, warm amber and smooth resins emerge, creating a glowing, luxurious base that feels comforting yet seductive. Balanced between sweetness and warmth, this perfume leaves a lasting impression that is both mysterious and timeless.'
         },
         {
             id: 'w5',
             name: 'Haya Lattafa',
             price: 3500,
-            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.25968.2x.avif',
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.85031.2x.avif',
             description: 'Haya by Lattafa is a bright and joyful fragrance that blends sparkling fruits with soft florals and creamy sweetness. It opens with a fresh burst of juicy notes that feel playful and uplifting, then melts into a heart of delicate flowers and smooth accords. As it dries down, warm vanilla and gentle musk add a soft, comforting finish that lingers beautifully on the skin. Feminine, youthful, and charming, Haya is perfect for everyday wear or moments when you want to feel light and confident.'
         }
     ],
