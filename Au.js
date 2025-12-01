@@ -39,38 +39,38 @@ const products = {
     men: [
         {
             id: 'm1',
-            name: 'Borhi Sakina ',
+            name: 'Horizon Guy Laroche',
             price: 3200,
-            image: 'https://i.imgur.com/2T3U4V5.jpg',
-            description: 'A bold journey of citrus and spice, Horizon captures the spirit of modern adventure. This dynamic fragrance opens with an invigorating burst of grapefruit and mandarin, immediately awakening the senses. The heart reveals a sophisticated blend of ginger, nutmeg, and cardamom that adds warmth and complexity. The base notes of cedarwood, vetiver, and musk provide a masculine foundation that lingers confidently throughout the day. Designed for the man who embraces challenges and lives life to the fullest.'
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.2070.2x.avif',
+            description: 'Horizon by Guy Laroche is a fresh and confident fragrance inspired by freedom and open skies. It opens with crisp, invigorating notes that immediately energize the senses, followed by a heart of soft spices and aromatic woods that add depth and character. As it settles, warm amber and smooth musks create a clean, masculine trail that feels modern and effortlessly stylish. Perfect for daily wear, Horizon is a scent for men who enjoy simplicity with a touch of sophistication.'
         },
         {
             id: 'm2',
-            name: 'Shuhrah Elixir Rasasi',
-            price: 3000,
-            image: 'https://i.imgur.com/5U6V7W8.jpg',
-            description: 'Shuhrah Elixir exudes opulent warmth and gentle sensuality, lingering with timeless charm. This sophisticated oriental fragrance opens with fresh bergamot and lavender, creating an immediate impression of refined masculinity. The heart reveals rich spices - cinnamon, clove, and cardamom - that add depth and intrigue. The base is luxurious with oud, amber, and musk creating a warm, sensual trail that commands attention without being overwhelming. Perfect for the discerning gentleman who appreciates traditional craftsmanship with modern appeal.'
+            name: 'Amber Empire',
+            price: 3550,
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.116876.2x.avif',
+            description: 'Amber Empire is a bold and sensual fragrance that celebrates the richness of amber in all its glory. It opens with warm, glowing notes that instantly feel luxurious, then deepens into a smooth blend of resins, soft spices, and subtle sweetness. As it settles, creamy woods and gentle musks create a powerful, long-lasting trail that feels both royal and addictive. This is a scent made for evenings, confidence, and leaving a memorable impression wherever you go.'
         },
         {
             id: 'm3',
-            name: 'Dynasty Lattafa',
-            price: 3000,
-            image: 'https://i.imgur.com/7W8X9Y0.jpg',
-            description: 'A sophisticated harmony of deep spices and smooth amber, Dynasty leaves a trail of timeless allure. This commanding fragrance opens with bold black pepper and saffron, creating an immediate impression of power and confidence. The heart reveals a complex blend of rose, jasmine, and patchouli that adds sophistication and depth. The base is rich and lasting with amber, oud, and leather notes that create a memorable signature scent. Designed for the man who leads with elegance and leaves a lasting legacy.'
+            name: 'Club De Nuit Urban',
+            price: 3500,
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.77860.2x.avif',
+            description: 'Club De Nuit Urban is a bold and energetic fragrance made for the city lifestyle. It opens with a fresh burst that feels vibrant and confident, followed by a heart of smooth spices and subtle florals that add a refined edge. As it dries down, warm woods and soft musks create a masculine, long-lasting trail that feels stylish and powerful. Modern and versatile, this scent is perfect for day-to-night wear when you want to stand out without trying too hard.'
         },
         {
             id: 'm4',
-            name: 'Asad Elixir Lattafa',
+            name: 'Shuhrah Elixir Rasasi',
             price: 3000,
-            image: 'https://i.imgur.com/9X0Y1Z2.jpg',
-            description: 'Bold, smooth, and unforgettable, Asad Elixir captures the essence of refined masculinity. This powerful fragrance opens with fresh citrus and aromatic herbs that immediately command attention. The heart reveals a sophisticated blend of florals and spices - rose, jasmine, and black pepper - that create complexity and intrigue. The base is warm and sensual with vanilla, amber, and musk providing a luxurious foundation that lasts for hours. Perfect for the modern man who is both strong and sophisticated.'
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.112548.2x.avif',
+            description: 'Shuhrah Elixir by Rasasi is a deep, intense fragrance made for those who love bold and unforgettable scents. It opens with a smooth touch of sweetness and mystery, quickly revealing a heart filled with dark fruits and warm spices. As it settles, smoky woods, rich amber, and soft musks create a powerful and seductive trail that lasts for hours. Dark, elegant, and addictive, this scent is perfect for evenings, special occasions, and making a strong statement.'
         },
         {
             id: 'm5',
-            name: 'Club De Nuit Urban',
-            price: 2300,
-            image: 'https://i.imgur.com/1Y2A3B4.jpg',
-            description: 'A striking fusion of vibrant energy and refined warmth, Urban Elixir embodies contemporary elegance. This modern fragrance opens with fresh lemon and bergamot that immediately energize the senses. The heart reveals a unique blend of iris and pink pepper that adds sophistication and urban edge. The base is warm and masculine with amberwood, musk, and oakmoss creating a scent that is both fresh and grounding. Designed for the man who navigates the city with confidence and style.'
+            name: 'Asad Elixir Lataffa',
+            price: 3000,
+            image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.117616.2x.avif',
+            description: 'Asad Elixir by Lattafa is a powerful and seductive fragrance that radiates confidence and warmth. It opens with a bold sweetness touched by spice, instantly drawing attention. As the scent develops, rich vanilla and aromatic notes take center stage, creating a smooth yet intense heart. The base settles into deep amber, woods, and soft musk, leaving behind a strong, long-lasting trail that feels mysterious and masculine. This is the ideal fragrance for evenings, special occasions, and anyone who wants to make a fearless impression.'
         }
     ],
     unisex: [
