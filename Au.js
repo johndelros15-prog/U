@@ -39,7 +39,7 @@ const products = {
     men: [
         {
             id: 'm1',
-            name: 'Horizon Guy Laroche',
+            name: 'Borhi Sakina ',
             price: 3200,
             image: 'https://i.imgur.com/2T3U4V5.jpg',
             description: 'A bold journey of citrus and spice, Horizon captures the spirit of modern adventure. This dynamic fragrance opens with an invigorating burst of grapefruit and mandarin, immediately awakening the senses. The heart reveals a sophisticated blend of ginger, nutmeg, and cardamom that adds warmth and complexity. The base notes of cedarwood, vetiver, and musk provide a masculine foundation that lingers confidently throughout the day. Designed for the man who embraces challenges and lives life to the fullest.'
