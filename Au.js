@@ -86,9 +86,7 @@ const products = {
             name: 'Island Vanilla Dunes1',
             price: 2400,
             image: 'https://fimgs.net/mdimg/perfume-thumbs/375x500.106802.2x.avif',
-            description: 'Island Vanilla Dunes is a warm and inviting fragrance that transports you to sun-kissed shores. It opens with bright, airy notes of tropical fruits and gentle florals, blending seamlessly into a heart of creamy vanilla. As it dries down, soft musk and golden woods create a smooth, lingering trail reminiscent of sandy beaches and ocean breezes. Sweet, cozy, and effortlessly uplifting, this scent is perfect for everyday wear or moments when you want to feel relaxed and radiant.
-
-'
+            description: 'Island Vanilla Dunes is a warm and inviting fragrance that transports you to sun-kissed shores. It opens with bright, airy notes of tropical fruits and gentle florals, blending seamlessly into a heart of creamy vanilla. As it dries down, soft musk and golden woods create a smooth, lingering trail reminiscent of sandy beaches and ocean breezes. Sweet, cozy, and effortlessly uplifting, this scent is perfect for everyday wear or moments when you want to feel relaxed and radiant.'
         },
         {
             id: 'u3',
